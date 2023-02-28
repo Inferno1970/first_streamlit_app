@@ -66,7 +66,7 @@ if streamlit.button('Get Fruit Load List'):
 
 
 
-# # Allow the user to add fruits to the list
-# add_my_fruit = streamlit.text_input('What fruit would you like to add?','jackfruit')
-# streamlit.write('Thanks for adding ', add_my_fruit)
+# Allow the user to add fruits to the list
+add_my_fruit = streamlit.text_input('What fruit would you like to add?','jackfruit')
+streamlit.write('Thanks for adding ', add_my_fruit)
 # my_cur.execute("insert into pc_rivery_db.public.fruit_load_list values('from streamlit')")
